@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Sans-serif;
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+h1 {
+  color: #f9b314;
+}
+h2 {
+  color: #1211ca;
+}
+button {
+  background-color: #1211ca;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  width: 400px;
+}
+
+button:hover {
+  background-color: #3938d2;
+}
+
+.name {
+  color: #45a049;
+}
