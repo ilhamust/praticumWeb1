@@ -1,3 +1,4 @@
+/* Global */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -133,4 +134,13 @@ button:hover {
 
 .fa-react {
   color: #61dafb;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #1211ca;
+  color: white;
+  text-align: center;
+  font-weight: bold;
 }

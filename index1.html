@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Sederhana</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Belajar CSS</h1>
+      <nav>
+        <ul>
+          <li><a href="#content">Home</a></li>
+          <li><a href="#skills">Skill</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="content">
+        <h2>Tentang saya</h2>
+        <div class="about-section">
+          <div class="about-text">
+            <h4>Hello World,</h4>
+            <h3 id="demo"></h3>
+            <p>Saat ini saya sedang belajar Web</p>
+            <p id="date"></p>
+            <p>
+              Seorang mahasiswa semester 5 Informatika dengan IPK 3.95/4.00 dan
+              pengalaman magang di bidang IT. Mempunyai keahlian dalam desain
+              grafis, pengembangan web dan jaringan komputer...
+            </p>
+            <button onclick="showMessage()">Klik Saya</button>
+          </div>
+
+          <div class="about-image">
+            <img src="welcome.png" alt="ikon-penyambutan" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Struktur website</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <p>Styling & Layout</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-js-square"></i>
+            <h3>JavaScript</h3>
+            <p>Interaktivitas</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-react"></i>
+            <h3>React</h3>
+            <p>UI Framework</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Pratikum CSS</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

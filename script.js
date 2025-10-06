@@ -2,12 +2,6 @@ function showMessage() {
   alert("Semangat Belajar Web!");
 }
 
-function showDate() {
-  const sekarang = new Date();
-  const tanggalIndonesia = sekarang.toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-  document.getElementById('date').innerText = tanggalIndonesia;
-}
-
 var i = 0;
 var txt = 'Saya Ilham Mustaqim'; 
 var speed = 150;
@@ -21,6 +15,5 @@ function typeWriter() {
 }
 
 window.onload = function() {
-  showDate();
   typeWriter();
 };
